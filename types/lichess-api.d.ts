@@ -5,21 +5,7 @@
 
 export interface paths {
   "/api/users/status": {
-    parameters: {
-      query?: never;
-      header?: never;
-      path?: never;
-      cookie?: never;
-    };
-    /**
-     * Get real-time users status
-     * @description Read the `online`, `playing` and `streaming` flags of several users.
-     *     This API is very fast and cheap on lichess side.
-     *     So you can call it quite often (like once every 5 seconds).
-     *     Use it to track players and know when they're connected on lichess and playing games.
-     */
-    get: operations["apiUsersStatus"];
-    put?: never;
+    
     post?: never;
     delete?: never;
     options?: never;
